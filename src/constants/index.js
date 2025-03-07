@@ -65,7 +65,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "PDF AI is an advanced AI-powered bot that recognizes and interprets content within PDF documents, providing accurate and contextually relevant responses based on the extracted information. It enhances document interactions by delivering intelligent insights and answers from the content of the PDFs.",
-    technologies: ["Flutter", "NOdejs", "Google Cloud", "Firebase"],
+    technologies: ["React.Js", "API"],
   },
   // {
   //   title: "Me Chat",
