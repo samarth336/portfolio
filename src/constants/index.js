@@ -64,7 +64,7 @@ export const PROJECTS = [
     title: "Weather Map Webapp",
     image: project4,
     description:
-      "PDF AI is an advanced AI-powered bot that recognizes and interprets content within PDF documents, providing accurate and contextually relevant responses based on the extracted information. It enhances document interactions by delivering intelligent insights and answers from the content of the PDFs.",
+      "The interactive weather app, developed using React.js, enables users to click on a map and view real-time weather data for various locations. It integrates a weather API to display essential details such as temperature, humidity, wind speed, and forecasts, ensuring accurate and up-to-date information. The application features an intuitive and user-friendly UI/UX, allowing for a seamless and engaging weather exploration experience.",
     technologies: ["React.Js", "API"],
   },
   // {
