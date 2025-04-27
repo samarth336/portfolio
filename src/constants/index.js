@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/coffee.jpg";
-import project3 from "../assets/projects/portfulio.png";
-import project4 from "../assets/projects/weatherapp.png";
+import project2 from "../assets/projects/let's_code.png";
+import project3 from "../assets/projects/wanderlust.png";
+import project4 from "../assets/projects/portfulio.png";
+import project5 from "../assets/projects/weatherapp.png";
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with a strong focus on Node.Js and a comprehensive tech stack. My expertise spans front-end technologies including React.js and HTML, CSS and back-end technologies such as Node.js, MySQL, MongoDB and Firebase. With hands-on experience in building innovative and scalable applications, I aim to leverage my skills to deliver exceptional user experiences and drive business growth through dynamic, cutting-edge solutions.`;
 
@@ -9,32 +10,15 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2025 - Present",
+    role: "Software Developer Intern",
+    company: "LogStrike",
+    description: `Currently working as an SDA Intern at LogStrike, contributing to the development of a scalable e-commerce
+    platform using modern web technologies. Actively building an open-source micro frontend UI component
+    library to enable a modular and reusable frontend architecture, improving development efficiency by 30%.
+    Collaborating with cross-functional teams of 5+ members to ensure seamless integration of frontend
+    components with backend services. Gaining hands-on experience with technologies such as Next.js, Payload
+    CMS, and Firebase, enhancing technical skills and team collaboration.`,
   },
 ];
 
@@ -47,22 +31,29 @@ export const PROJECTS = [
     technologies: ["React.Js", "Generative AI"],
   },
   {
-    title: "Coffee Shop Management System",
+    title: "Let's Code",
     image: project2,
     description:
-      "A full-stack web app for managing orders, inventory, and users with secure authentication, role-based access, and an intuitive UI for a seamless experience.",
-    technologies: ["React.Js", "Nodejs", "MySQL"],
+      "Let's Code is a platform that empowers learners and developers to practice coding, and enhance their programming skills through hands-on challenges and real-world problem-solving.",
+    technologies: ["React.Js", "Nodejs", "MongoDB"],
+  },
+  {
+    title: "Wanderlust",
+    image: project3,
+    description:
+      "Wandurlust lets you explore and book unique homes and stays, offering a seamless travel experience just like Airbnb.",
+    technologies: ["HTML", "CSS", "JavaScript", "Nodejs", "MongoDB"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React.Js","Tailwind CSS"],
+    technologies: ["React.Js", "Tailwind CSS"],
   },
   {
     title: "Weather Map Webapp",
-    image: project4,
+    image: project5,
     description:
       "The interactive weather app, developed using React.js, enables users to click on a map and view real-time weather data for various locations. It integrates a weather API to display essential details such as temperature, humidity, wind speed, and forecasts, ensuring accurate and up-to-date information. The application features an intuitive and user-friendly UI/UX, allowing for a seamless and engaging weather exploration experience.",
     technologies: ["React.Js", "API"],
